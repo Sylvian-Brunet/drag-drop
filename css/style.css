@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+
+.dropContainer {  
+    border:2px dashed #0078D4; 
+    min-height: 100px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    height: 100px;
+}
+
+.imgContainer img {
+    width: auto;
+    height: 100%;
+}
+
+.imgSubTitle {
+    max-width:100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

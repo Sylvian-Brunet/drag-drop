@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="author" content="Sylvian Brunet">
+		<meta name="description" content="HTML CSS JS Drag & Drop for a input file">
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="./css/style.css">
+
+		<title>drag & drop multiple</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row mx-0">
+				<div class="col-md-12">
+					<div class="w-100 bg-white p-2">
+						<div id="container" class="d-flex flex-wrap rounded mb-2 p-2 dropContainer">Drop <i class="bi bi-images mx-2"></i> here, only "jpg, jpeg, png" extension(s) allowed</div>
+							<input type="file" id="fileInput" name="file" multiple class="d-none"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
